@@ -1,0 +1,159 @@
+header{
+    width: 960px;
+    height: 70px;
+    background-color: #02f042;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#marca{
+    width: 200px;
+    height: 70px;
+    background-color: #f70a0a;
+    float: left;
+}
+
+#botonera_principal{
+    width: 400px;
+    height: 70px;
+    background-color: #ffffff;
+    float: right;
+}
+
+nav ul{
+    list-style: none;/*saca los puntitos*/
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Uno al lado del otro*/
+    float: right;
+    text-shadow: 0px 1px #FFF;
+    border-radius: 5px;
+}
+
+nav ul li a{
+    color: #999;
+    text-decoration: none; /*el subrayado*/
+    display: block;
+    padding: 26px 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*alto  ancho*/
+}
+
+nav ul li a:hover{
+    color: #000;
+    background-color: #3f43b5;
+
+}
+
+section#contenido_principal{
+    width: 960px;
+    height: 800px;
+    background-color: #cce8df;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imagen1{
+    width: 350px;
+    height: 300px;
+    background-color: #37e320;
+    float: left;
+    margin-bottom: 10px;
+    background-image: url(img/hombrecito.jpg);
+    background-size: cover;
+}
+
+#presentacion{
+    width: 600px;
+    height: 300px;
+    background-color: #fa05dd;
+    float: right;
+    margin-bottom: 10px;
+}
+
+#tituloarticulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#contenido_articulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#texto_contenido{
+    width: 250px;
+    height: 300px;
+    background-color: #fa05dd;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#contenido_segundo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+#imagen2{
+    height: 300px;
+    width: 400px;
+    background-color: #89d141;
+    float: left;
+    margin-bottom: 10px;
+    background-image: url(img/computadora.jpg);
+    background-size: cover;
+}
+
+#destacado{
+    width: 250px;
+    height: 300px;
+    background-color: #fa05dd;
+    float: right;
+    margin-bottom: 10px;
+  
+}
+
+#contenido_destacado{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#complementario{
+    width: 960px;
+    height: 180px;
+    background-color: #522557;
+    clear: both;
+}
+
+#imagen_aside{
+    width: 960px;
+    height: 180px;
+}
+
+footer{
+    width: 960px;
+    height: 180px;
+    background-color: #080808;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#datos{
+    width: 300px;
+    height: 180px;
+    background-color: #28cee0;
+    float: left;
+}
+
+#redes{
+    width: 350px;
+    height: 35px;
+    background-color: #3f43b5;
+    float: right;
+}
